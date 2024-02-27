@@ -7,12 +7,17 @@
   color: grey;
 }
 
-.titulo{
+.titulo {
   font-family: 'Bitter', serif;
   display: flex;
   justify-content: center;
   margin-top: 15px;
   color: grey;
+  transition: transform 0.5s ease; /* Agrega una transición suave */
+}
+
+.titulo:hover {
+  transform: rotate(360deg);
 }
 
 .conocenos{
